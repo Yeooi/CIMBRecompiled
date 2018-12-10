@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/FPLoginlbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:text="Login"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/FPLoginImg"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_below="@id/FPLoginlbl"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/fingerprint_icon" />
+
+    <TextView
+        android:id="@+id/FPLoginPara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FPLoginImg"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:text="Please login with your registered fingerprint"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/FPLoginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FPLoginPara"
+        android:layout_centerHorizontal="true"
+        android:text="Continue"
+        android:clickable="false"
+        />
+
+</RelativeLayout>

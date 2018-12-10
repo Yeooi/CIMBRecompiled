@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CIMB Prototype</string>
+    <string name="myEvents">My Events</string>
+    <string name="nearMe">Events Near Me</string>
+    <string name="rewards">Rewards</string>
+    <string name="history">History</string>
+
+    <string name="fingerprint">Fingerprint</string>
+    <string name="btnFingerprint">Fingerprint</string>
+    <string name="fingerprintPara">Please place your finger on your phone\'s fingerprint Scanner</string>
+    <string name="successMsg">Your fingerprint has been verified. You may use your fingerprint for subsequent logins</string>
+    <string name="success">Success</string>
+    <string name="setupELpara">To Simplify your login, you may wish to setup Enhanced Login now. please choose from the following options: </string>
+    <string name="setupEL">Set-up Enhanced Login</string>
+    <string name="ELPictureUnlock">Click here to set up Picture Unlock</string>
+    <string name="ELFingerprint">Click here to set up Fingerprint Unlock</string>
+
+    <string name="TnC">By pressing I agree, I agree to the Terms and Conditions for usage of this mobile application.
+    </string>
+</resources>
